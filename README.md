@@ -6,6 +6,7 @@
 
 ```bash
 git clone --recursive https://github.com/brandon-julio-t/news-aggregator
+cd news-aggregator
 ```
 
 2. [Setup the API](https://github.com/brandon-julio-t/news-aggregator-api#getting-started)
