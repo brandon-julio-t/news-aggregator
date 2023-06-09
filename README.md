@@ -65,9 +65,5 @@ NEXT_PUBLIC_BACKEND_URL=http://localhost
 3. Build and run container.
 
 ```bash
-# Development (next dev + hot reload)
-docker-compose -f docker-compose.development.yml up --build
-
-# Production (next start)
-docker-compose -f docker-compose.production.yml up --build
+docker compose up --build
 ```
