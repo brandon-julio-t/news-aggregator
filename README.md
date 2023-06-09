@@ -43,6 +43,12 @@ DB_PASSWORD=password
 ./vendor/bin/sail up
 ```
 
+6. Seed the application.
+
+```bash
+./vendor/bin/sail php artisan migrate --seed
+```
+
 ## News Aggregator UI
 
 Powered by React.js & Next.js.
