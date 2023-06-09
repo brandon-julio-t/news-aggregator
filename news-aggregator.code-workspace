@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "news-aggregator-api"
+		},
+		{
+			"path": "."
 		}
 	]
 }
