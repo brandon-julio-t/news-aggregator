@@ -1,5 +1,16 @@
 # News Aggregator
 
+## Getting Started
+
+1. Clone this repository.
+
+```bash
+git clone --recursive https://github.com/brandon-julio-t/news-aggregator
+```
+
+2. [Setup the API](https://github.com/brandon-julio-t/news-aggregator-api#getting-started)
+3. [Setup the UI](https://github.com/brandon-julio-t/news-aggregator-ui#getting-started)
+
 ## News Aggregator API
 
 Powered by Laravel.
