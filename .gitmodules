@@ -1,0 +1,6 @@
+[submodule "news-aggregator-api"]
+	path = news-aggregator-api
+	url = https://github.com/brandon-julio-t/news-aggregator-api
+[submodule "news-aggregator-ui"]
+	path = news-aggregator-ui
+	url = https://github.com/brandon-julio-t/news-aggregator-ui
