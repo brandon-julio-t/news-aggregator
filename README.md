@@ -24,9 +24,13 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-4. Update environment variables (`.env`) for frontend app and Laravel Sail database.
+4. Update environment variables (`.env`) for News API, frontend app, and Laravel Sail database.
 
 ```bash
+# ...
+NEWSAPI_API_KEY=8ff458ef1b004dc1884447752950b816
+THE_GUARDIAN_API_KEY=3523b1b5-e18c-4b8e-bebe-10ecf8f0290d
+NEW_YORK_TIMES_API_KEY=DE4tUCzb77G0DwzF0yWRlmQvA3HQ4LoL
 # ...
 FRONTEND_URL=http://localhost:3000
 # ...
@@ -43,7 +47,7 @@ DB_PASSWORD=password
 ./vendor/bin/sail up
 ```
 
-6. Seed the application.
+6. Migrate database and seed the application (~10s - 20s).
 
 ```bash
 ./vendor/bin/sail php artisan migrate --seed
